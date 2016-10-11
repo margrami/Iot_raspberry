@@ -1,0 +1,6 @@
+# raspberry side
+[{"id":"dfcd9b9c.fd1dd8","type":"function","z":"7cf79a50.26a684","name":"formating payload","func":"msg.payload = {'d' : {\"temperature\" : Number(msg.payload.temperature), \"humidity\": Number(msg.payload.humidity)}}\nreturn msg;","outputs":1,"noerr":0,"x":445,"y":595,"wires":[["2e4c8d4d.49c0b2","7dbe711d.6ac76"]]}]
+
+
+# IBMbluemix side
+[{"id":"8c2b6374.6e421","type":"debug","z":"7bdd814b.d4136","name":"","active":false,"console":"false","complete":"payload","x":270,"y":100,"wires":[]}]

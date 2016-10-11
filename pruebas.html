@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>y = 5, calculate x = y % 2, and display x:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var num= 29;
+    var x = num %10; // unidades
+    var descenas = (num - x) / 10
+    document.getElementById("demo").innerHTML = x;
+    //document.getElementById("demo").innerHTML = descenas;
+}
+</script>
+
+</body>
+</html>
+
